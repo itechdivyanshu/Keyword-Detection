@@ -1,16 +1,17 @@
 # Python Always Listening Keyword Detection
 
-This project provides example code for device that can trigger off of a keyword that is always listening using Python. This can be used for to augment any project that requires the user to initiate any action. As an example, the phrase "Mr. House" can trigger a call to the [SpeechRecognition](https://pypi.python.org/pypi/SpeechRecognition) library, where the users next sentence can be captured and parsed.
+This project provides example code for device that can trigger off of a keyword that is always listening using Python. This can be used for to augment any project that requires the user to initiate any action. As an example, the phrase "Jarvis" can trigger a call to the [SpeechRecognition](https://pypi.python.org/pypi/SpeechRecognition) library, where the users next sentence can be captured and parsed.
 
 ## Requirements
+
 - [Python 3.4+](https://www.python.org/)
-	- #### `[pyaudio](https://people.csail.mit.edu/hubert/pyaudio/)`
+	- #### [pyaudio](https://people.csail.mit.edu/hubert/pyaudio/)`
 	
 	```javascript
 	sudo apt-get install python3-pyaudio
 	```
 	
-	- #### `[pocketsphinx](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pocketsphinx)'
+	- #### [pocketsphinx](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pocketsphinx)
 	
 	```javascript
 	sudo apt-get install python3 python3-all-dev python3-pip build-essential swig git libpulse-dev libasound2-dev
@@ -27,6 +28,11 @@ This project provides example code for device that can trigger off of a keyword 
 The code in this repository is based on an example in the pocketsphinx GitHub repository. 
 
 [pocketsphinx/swig/python/test/kws_test.py](https://github.com/cmusphinx/pocketsphinx/blob/master/swig/python/test/kws_test.py)
+
+- To use this repository just run [always_listening.py](./always_listening.py)
+    ```javascript
+    python3 always_listening.py
+    ```
 
 ## Cross-Platform
 
