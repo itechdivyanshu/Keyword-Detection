@@ -4,8 +4,22 @@ This project provides example code for device that can trigger off of a keyword 
 
 ## Requirements
 - [Python 3.4+](https://www.python.org/)
-	- [pyaudio](https://people.csail.mit.edu/hubert/pyaudio/)
-	- [pocketsphinx](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pocketsphinx)
+	- #### `[pyaudio](https://people.csail.mit.edu/hubert/pyaudio/)`
+	
+	```javascript
+	sudo apt-get install python3-pyaudio
+	```
+	
+	- #### `[pocketsphinx](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pocketsphinx)'
+	
+	```javascript
+	sudo apt-get install python3 python3-all-dev python3-pip build-essential swig git libpulse-dev libasound2-dev
+	```
+	```javascript
+	pip3 install pocketsphinx
+	```
+	
+	
 - [Microphone](http://amzn.to/1rvSxuS)
 
 ## Using CMU Sphinx
@@ -22,12 +36,15 @@ This code has only been tested on Windows. The final goal is for this project to
 
 If you run into any bugs, please create an issue on GitHub. Don't hesitate to submit bugs for the README as well! I can't promise that I will get to it quickly, but I will do my best to keep this project as bug free as possible.
 
-## Contributing
-
-Feel free contribute to the code!
-
 ## License
 MIT - [See LICENSE](./LICENSE)
 
 ## Change Log
 * Version 0.1 - Initial commit
+
+## Contributing
+
+
+If you're new to contributing to Open Source on Github, [this guide](https://guides.github.com/activities/contributing-to-open-source/) can help you get started. We're a warm and welcoming community of open source contributors. Please join. All types of contribution are welcome.
+
+###### This repository is just a small subset of work put together by a much larger pool of voluntary efforts contributed by generous people all around the world. Reach out to us through itechindrustries@gmail.com
